@@ -43,7 +43,7 @@ export default function Home() {
     >
       <Container>
         <div className="flex flex-col flex-wrap items-center justify-center w-full mx-auto md:flex-row">
-          <div className="mix-blend-luminosity z-10 flex flex-col gap-6 items-start justify-center w-full text-center md:w-[60%] md:text-left">
+          <div className="z-10 flex flex-col gap-6 items-start justify-center w-full text-center md:w-[60%] md:text-left">
             <p className="font-semibold text-left text-7xl">
               Strony, które opowiadają historię i przynoszą
               <span
@@ -63,10 +63,8 @@ export default function Home() {
               <span className="font-semibold text-primary">
                 narzędziami biznesowymi
               </span>
-              , zwiększającymi{' '}
-              <span className="font-semibold text-primary">
-                sprzedaż i lojalność
-              </span>{' '}
+              , które zamieniają{' '}
+              <span className="font-semibold text-primary">kliknięcia</span> w
               kilentów.
             </p>
             <div className="flex flex-col w-full gap-2 lg:gap-3 sm:flex-row">

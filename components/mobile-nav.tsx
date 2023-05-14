@@ -3,6 +3,7 @@ import { cn } from '@/lib/utils';
 import { MainNavItem } from '@/types';
 import Link from 'next/link';
 import * as React from 'react';
+import CalendlyButton from './calendlyButton';
 
 interface MobileNavProps {
   items: MainNavItem[];
@@ -39,6 +40,7 @@ export function MobileNav({
               {item.title}
             </Link>
           ))}
+          <CalendlyButton>Zarezerwuj rozmowę</CalendlyButton>
         </nav>
         {children}
       </div>

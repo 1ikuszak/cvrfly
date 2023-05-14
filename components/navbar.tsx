@@ -33,7 +33,7 @@ const Navbar = ({ items, children }: MainNavProps) => {
           <p className="text-2xl font-bold text-neutral-900">cvrFLY</p>
         </Link>
         <button
-          className="flex items-center space-x-2 l-0 md:hidden"
+          className="flex items-center space-x-2 l-0 lg:hidden"
           onClick={() => setShowMobileMenu(!showMobileMenu)}
         >
           {showMobileMenu ? (
@@ -51,14 +51,14 @@ const Navbar = ({ items, children }: MainNavProps) => {
           </MobileNav>
         )}
         {items?.length ? (
-          <nav className="hidden gap-4 md:flex">
-            <div className="hidden gap-4 p-1 border rounded-full md:flex border-neutral-400">
+          <nav className="hidden gap-4 lg:flex">
+            <div className="hidden gap-4 p-1 border rounded-full lg:flex border-neutral-100">
               {items?.map((item, index) => (
                 <Link
                   key={index}
                   href={item.disabled ? '#' : item.href}
                   className={cn(
-                    'flex items-center text-lg font-semibold text-slate-600 bg-secondary px-4 py-1 rounded-full sm:text-base hover:text-slate-700 cursor-pointer',
+                    'flex items-center text-lg font-semibold text-slate-600 bg-secondary px-4 py-1 rounded-full sm:text-sm hover:text-slate-700 cursor-pointer',
                     item.href.startsWith(`/${segment}`) && 'text-slate-900',
                     item.disabled && 'opacity-60'
                   )}
