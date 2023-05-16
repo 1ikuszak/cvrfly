@@ -4,7 +4,7 @@ export const marketingConfig: MarketingConfig = {
   mainNav: [
     {
       title: 'Cvrfly',
-      href: '#cvrfly',
+      href: '#home',
     },
     {
       title: 'Jak mogę pomóc',

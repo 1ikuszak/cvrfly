@@ -6,13 +6,14 @@ import { buttonVariants } from './ui/button';
 interface CalendlyButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   href?: string;
+  _variant?: 'default';
 }
 
 function CalendlyButton(
   props: CalendlyButtonProps,
   ref: React.Ref<HTMLButtonElement>
 ) {
-  const { className, children, href, ...rest } = props;
+  const { className, children, href, _variant, ...rest } = props;
   const [rootElement, setRootElement] = useState<HTMLElement | null>(null);
   const calendlyButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -23,7 +24,7 @@ function CalendlyButton(
   }, []);
 
   const calendlyButtonClassNames = cn(
-    buttonVariants({ variant: 'default', size: 'default', className })
+    buttonVariants({ variant: _variant, size: 'default', className })
   );
 
   return (

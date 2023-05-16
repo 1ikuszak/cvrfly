@@ -40,6 +40,12 @@ export function MobileNav({
               {item.title}
             </Link>
           ))}
+          <Link
+            className="flex items-center w-full p-2 text-sm font-medium rounded-md cursor-pointer hover:underline"
+            href="/politykaprywatnosci"
+          >
+            Polityka Prywatności
+          </Link>
           <CalendlyButton>Zarezerwuj rozmowę</CalendlyButton>
         </nav>
         {children}

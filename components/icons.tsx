@@ -1,4 +1,5 @@
 import {
+  ArrowRight,
   ChevronDown,
   ChevronLeft,
   ClipboardType,
@@ -47,4 +48,5 @@ export const Icons = {
   leftarrow: ChevronLeft,
   loader: Loader,
   loader2: Loader2,
+  arrowright: ArrowRight,
 };

@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         light: '#FFFFFE',
         dark: '#1E1E1E',
-        primary: '#FF702F',
+        primary: '#FF4C00',
+        primary_hover: '#FF702F',
         secondary: '#F2F6FF',
       },
     },

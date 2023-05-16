@@ -17,7 +17,7 @@ export const Blob = ({ route = '/', ...props }) => {
     >
       <sphereGeometry args={[1, 64, 64]} />
       <MeshDistortMaterial
-        color="#FF702F"
+        color="#FF4C00"
         distort={0.6}
         speed={8}
         roughness={0.8}

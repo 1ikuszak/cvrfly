@@ -27,10 +27,10 @@ const Navbar = ({ items, children }: MainNavProps) => {
     <Container>
       <div className="flex py-2 md:justify-between">
         <Link
-          href="#hero"
+          href="#home"
           className="flex items-center justify-start w-full space-x-2 cursor-pointer md:w-auto"
         >
-          <p className="text-2xl font-bold text-neutral-900">cvrFLY</p>
+          <p className="text-2xl font-bold text-neutral-900">cvrFly</p>
         </Link>
         <button
           className="flex items-center space-x-2 l-0 lg:hidden"
@@ -67,7 +67,7 @@ const Navbar = ({ items, children }: MainNavProps) => {
                 </Link>
               ))}
             </div>
-            <CalendlyButton className="rounded-full">
+            <CalendlyButton className="rounded-full" _variant="default">
               Zarezerwuj rozmowę
             </CalendlyButton>
           </nav>
