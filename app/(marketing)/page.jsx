@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
-//patern
+//bg patern
 import black_patern from '@/public/black_patern.png';
 import white_patern from '@/public/white_patern.png';
 
@@ -21,10 +21,10 @@ import { Button } from '@/components/ui/button';
 //images
 import crypto_hero from '@/public/crypto_hero.jpg';
 import crypto_perks from '@/public/crypto_perks.jpg';
+import engines_main from '@/public/engines_main.jpg';
 import fiver_browse from '@/public/fiver_browse.jpg';
 import fiver_login from '@/public/fiver_login.png';
 import outlanders_hero from '@/public/outlanders_hero.jpg';
-import rock_paper_scissors from '@/public/rock_paper_scissors.jpg';
 
 // 3d
 const Blob = dynamic(
@@ -51,12 +51,12 @@ const Common = dynamic(
 export default function Home() {
   const PortfolioCards = [];
   const PortfolioImages = [
-    rock_paper_scissors,
     outlanders_hero,
     fiver_browse,
     fiver_login,
     crypto_hero,
     crypto_perks,
+    engines_main,
   ];
   for (let index = 0; index < PortfolioImages.length; index++) {
     PortfolioCards.push(
