@@ -123,7 +123,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="lg:w-[50%] w-full flex gap-3 flex-col lg:p-8 py-4 px-2 bg-black rounded-xl">
+              <div className="lg:w-[50%] w-full flex gap-3 flex-col lg:p-8 lg:py-4 py-2 px-1 bg-black rounded-xl">
                 <div className="w-full pr-[60px] bg-white border-2 rounded-full border-primary">
                   <div className="px-5 py-1 bg-black rounded-full">
                     <div className="flex items-center justify-between">
