@@ -65,11 +65,11 @@ export default function Home() {
   }
 
   return (
-    <div className="mt-[40px] lg:mt-[140px] flex flex-col gap-[200px] lg:gap-[240px]">
+    <div className="mt-[40px] lg:mt-[140px] flex flex-col gap-[180px] lg:gap-[240px]">
       <Container>
         <div className="flex flex-col flex-wrap items-center justify-center w-full mx-auto md:flex-row">
           <div className="z-10 flex flex-col gap-6 items-start justify-center w-full text-center md:w-[60%] md:text-left">
-            <p className="font-semibold text-left text-7xl">
+            <p className="text-6xl font-semibold text-left lg:text-7xl">
               Strony, które opowiadają historię i przynoszą
               <span className="text-primary"> rezultaty</span>
             </p>
@@ -115,9 +115,9 @@ export default function Home() {
       >
         <Container>
           <div className="text-white my-[110px] flex flex-col gap-[100px]">
-            <p className="mb-2 text-4xl font-bold">CVRFLY</p>
             <div className="flex flex-col items-center gap-8 lg:gap-4 lg:flex-row">
               <div className="flex flex-col lg:w-[50%] gap-4">
+                <p className="mb-2 text-4xl font-bold">CVRFLY</p>
                 <p className="text-5xl tracking-wide">
                   PROJEKTUJEMY STRONY KTÓRE SĄ NARZĘDZIEM DLA TWOJEGO BIZNESU
                 </p>
