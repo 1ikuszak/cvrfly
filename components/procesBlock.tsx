@@ -8,14 +8,14 @@ const ProcesBlock = () => {
       <div className="flex items-center justify-center gap-6">
         <Icons.send size={84} />
         <p className="text-xl">
-          Podczas tworzenia Twojej strony będę w stałym kontakcie z Tobą, abyś
-          zawsze wiedział, jak idą prace.
+          Podczas tworzenia Twojej strony będziemy w stałym kontakcie z Tobą,
+          abyś zawsze wiedział, jak idą prace.
         </p>
       </div>
       <div className="flex items-center justify-center gap-6">
         <Icons.clock size={84} />
         <p className="text-xl">
-          Postaram się jednak skrócić nasz kontakt do minimum, abyś mógł skupić
+          Postaramy się jednak skrócić nasz kontakt do minimum, abyś mógł skupić
           się na swoich rzeczach.
         </p>
       </div>

@@ -23,7 +23,7 @@ const ProcesCard: FC<ProcesCardProps> = ({ title, description, pill }) => {
                 {pill}
               </span>
             </div>
-            <p className="text-xl">{description}</p>
+            <p className="text-base lg:text-xl">{description}</p>
           </div>
           <div className="p-2 rounded-r-lg">
             <div className="w-3 h-3 rounded-full bg-dark"></div>

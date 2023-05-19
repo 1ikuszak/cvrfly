@@ -115,33 +115,35 @@ export default function Home() {
       >
         <Container>
           <div className="text-white my-[110px] flex flex-col gap-[100px]">
-            <div className="flex flex-col items-center gap-8 lg:gap-4 lg:flex-row">
-              <div className="flex flex-col lg:w-[50%] gap-4">
-                <p className="mb-2 text-4xl font-bold">CVRFLY</p>
-                <p className="text-5xl tracking-wide">
-                  PROJEKTUJEMY STRONY KTÓRE SĄ NARZĘDZIEM DLA TWOJEGO BIZNESU
-                </p>
-              </div>
+            <div>
+              <p className="mb-4 text-4xl font-bold lg:mb-2">CVRFLY</p>
+              <div className="flex flex-col items-center gap-8 lg:gap-4 lg:flex-row">
+                <div className="flex flex-col lg:w-[50%]">
+                  <p className="text-5xl tracking-wide">
+                    PROJEKTUJEMY STRONY KTÓRE SĄ NARZĘDZIEM DLA TWOJEGO BIZNESU
+                  </p>
+                </div>
 
-              <div className="lg:w-[50%] w-full flex gap-3 flex-col lg:p-8 lg:py-4 py-2 px-1 bg-black rounded-xl">
-                <div className="w-full pr-[60px] bg-white border-2 rounded-full border-primary">
-                  <div className="px-5 py-1 bg-black rounded-full">
-                    <div className="flex items-center justify-between">
-                      <p className="text-2xl">KREATYWNOŚĆ</p>
-                      <p className="hidden text-sm tracking-widest text-white lg:flex">
-                        BALANS
-                      </p>
-                      <div className="w-3 h-3 bg-white rounded-full"></div>
+                <div className="lg:w-[50%] w-full flex gap-3 flex-col lg:p-8 lg:py-4 py-2 px-1 bg-black rounded-xl">
+                  <div className="w-full pr-[60px] bg-white border-2 rounded-full border-primary">
+                    <div className="px-5 py-1 bg-black rounded-full">
+                      <div className="flex items-center justify-between">
+                        <p className="text-2xl">KREATYWNOŚĆ</p>
+                        <p className="hidden text-sm tracking-widest text-white lg:flex">
+                          BALANS
+                        </p>
+                        <div className="w-3 h-3 bg-white rounded-full"></div>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="w-full pr-[40px] bg-black border-2 rounded-full border-primary">
-                  <div className="px-5 py-1 bg-white rounded-full">
-                    <div className="flex items-center justify-between">
-                      <p className="text-2xl font-semibold text-black">
-                        FUNKCJONALNOŚĆ
-                      </p>
-                      <div className="w-3 h-3 bg-black rounded-full"></div>
+                  <div className="w-full pr-[40px] bg-black border-2 rounded-full border-primary">
+                    <div className="px-5 py-1 bg-white rounded-full">
+                      <div className="flex items-center justify-between">
+                        <p className="text-2xl font-semibold text-black">
+                          FUNKCJONALNOŚĆ
+                        </p>
+                        <div className="w-3 h-3 bg-black rounded-full"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
