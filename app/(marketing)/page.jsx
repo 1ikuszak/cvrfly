@@ -85,10 +85,10 @@ export default function Home() {
             </p>
             <div className="flex flex-col w-full gap-2 lg:gap-3 sm:flex-row">
               <CalendlyButton _variant="cta">
-                zarezerwuj darmową rozmowę
+                Zarezerwuj darmową rozmowę
               </CalendlyButton>
               <Button variant="outline" href="#values">
-                dowiedz się więcej
+                Dowiedz się więcej
                 <Icons.arrowright size={16} />
               </Button>
             </div>
@@ -119,7 +119,7 @@ export default function Home() {
               <p className="mb-4 text-4xl font-bold lg:mb-2">CVRFLY</p>
               <div className="flex flex-col items-center gap-8 lg:gap-4 lg:flex-row">
                 <div className="flex flex-col lg:w-[50%]">
-                  <p className="text-5xl tracking-wide">
+                  <p className="text-4xl tracking-wide lg:text-5xl">
                     PROJEKTUJEMY STRONY KTÓRE SĄ NARZĘDZIEM DLA TWOJEGO BIZNESU
                   </p>
                 </div>
@@ -205,10 +205,10 @@ export default function Home() {
 
             <div className="flex flex-col justify-center w-full gap-2 lg:gap-3 sm:flex-row">
               <CalendlyButton _variant="cta">
-                zarezerwuj darmową rozmowę
+                Zarezerwuj darmową rozmowę
               </CalendlyButton>
               <Button variant="secondary" href="#portfolio">
-                zobacz portfolio
+                Zobacz portfolio
                 <Icons.arrowright size={16} />
               </Button>
             </div>
@@ -230,9 +230,11 @@ export default function Home() {
             {PortfolioCards}
           </div>
           <div className="flex flex-col justify-center w-full gap-2 mt-10 lg:gap-3 sm:flex-row">
-            <Button variant="cta">zajmij miejsce dla siebie</Button>
+            <CalendlyButton _variant="cta">
+              Zajmij miejsce dla siebie
+            </CalendlyButton>
             <Button variant="outline" href="#process">
-              przebieg procesu
+              Przebieg procesu
               <Icons.arrowright size={16} />
             </Button>
           </div>
@@ -280,7 +282,7 @@ export default function Home() {
                 />
                 <ProcesCard
                   title="Oddanie projektu"
-                  description="Oddanie projektu to moment, w którym otrzymujesz gotową stronę internetową i wszystkie potrzebne materiały. To początek prawdziwej magii"
+                  description="Oddanie projektu to moment, w którym otrzymujesz gotową stronę internetową i wszystkie potrzebne materiały. To początek prawdziwej magi."
                   pill="5-5"
                 />
               </div>

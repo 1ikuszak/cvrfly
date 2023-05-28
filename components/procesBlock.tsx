@@ -28,7 +28,7 @@ const ProcesBlock = () => {
       </div>
       <div className="w-full text-right">
         <CalendlyButton className="w-full sm:w-auto bg-primary hover:bg-primary_hover">
-          zarezerwuj darmową rozmowę
+          Zarezerwuj darmową rozmowę
         </CalendlyButton>
       </div>
     </div>

@@ -159,7 +159,7 @@ export const ContactUs = () => {
               </>
             ) : (
               <>
-                wyślij wiadomość
+                Wyślij wiadomość
                 <Icons.send size={14} />
               </>
             )}
