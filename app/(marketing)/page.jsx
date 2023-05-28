@@ -74,7 +74,7 @@ export default function Home() {
               <span className="text-primary"> rezultaty</span>
             </p>
             <p className="text-2xl text-left break-words text-neutral-5s00">
-              Projektuję strony internetowe, które nie tylko wyglądają
+              Projektujemy strony internetowe, które nie tylko wyglądają
               atrakcyjnie, ale przede wszystkim są skutecznymi{' '}
               <span className="font-semibold text-primary">
                 narzędziami biznesowymi
