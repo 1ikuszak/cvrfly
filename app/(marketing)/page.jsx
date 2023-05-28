@@ -219,7 +219,7 @@ export default function Home() {
         <section className="flex flex-col" id="portfolio">
           <div className="text-center">
             <p className="mb-3 text-5xl font-semibold">
-              Projekty, które zbudowałem
+              Projekty, które zbudowaliśmy
             </p>
             <p className="text-xl">
               to tylko niektóre z projektów, zarezerwuj rozmowę <br /> i zajmij
